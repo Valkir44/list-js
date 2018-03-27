@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>List</title>
+    <link rel="stylesheet" href="libs/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="container">
+    <h2 class="add-some-thing">Add Your Users Here</h2>
+        <form class="add-items d-flex justify-content-around">
+            <input name="item" class="form-control custom-input" id="name" data-fullName="full" type="text"
+                   placeholder="Full Name" required>
+            <input name="item" class="form-control custom-input" id="user" data-user type="text"
+                   placeholder="User Name" required>
+            <input name="item" class="form-control custom-input" id="email" data-email type="text"
+                   placeholder="Email" required>
+            <input name="item" class="form-control custom-input" id="address" data-address type="text"
+                   placeholder="Address" required>
+            <input name="item" class="form-control custom-input" id="website" data-website type="text"
+                   placeholder="Website" required>
+            <button id="addNew" class="btn btn-primary add-new-content-btn btn btn-dark" type="submit">Add</button>
+        </form>
+    <h2 class="add-some-thing">Your List Users</h2>
+    <div class="filters">
+        <ul class="d-flex flex-row list-group">
+            <li class="item-width list-group-item">
+                Full Name
+            </li>
+            <li class="item-width list-group-item">
+                User Name
+            </li>
+            <li class="item-width list-group-item">
+                Email
+            </li>
+            <li class="item-width list-group-item">
+                Address
+            </li>
+            <li class="item-width list-group-item">
+                Website
+            </li>
+            <li class="edit item-width list-group-item">
+                Edit
+            </li>
+            <li class="delete item-width list-group-item">
+                Delete
+            </li>
+        </ul>
+    </div>
+    <div class="user-container" id="app">
+        <div class="user__created">
+
+        </div>
+    </div>
+</div>
+<script src="libs/jquery.min.js"></script>
+<script src="js/js.js"></script>
+</body>
+</html>

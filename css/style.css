@@ -1,0 +1,91 @@
+.container {
+    width: 1170px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.custom-input {
+    width: 150px;
+}
+
+.add-new-content {
+    width: 100%;
+}
+
+.add-new-content-btn {
+    width: 50px;
+}
+
+
+.item-width {
+    width: 100%;
+}
+
+.user-content {
+    font-size: 12px;
+}
+
+.list-group-item:first-child {
+    border-top-left-radius: unset;
+    border-top-right-radius: unset;
+}
+
+.list-group-item {
+    padding: .75rem 0.25rem;
+    margin-bottom: 0;
+}
+
+.list-group-item:last-child {
+    border-radius: 0;
+}
+
+.filter-width {
+
+}
+
+.edit, .delete {
+    width: 100px;
+}
+
+.mustToEdit {
+    outline: none;
+    background: rgba(11, 46, 19, 0.64);
+}
+
+.save-btn {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.hide {
+    display: none;
+}
+
+.add {
+    outline: none;
+    border: 1px solid black;
+    background: lightcoral;
+}
+
+.edit-btn {
+    background: url(../img/edit.png) 50% 80% no-repeat;
+    width: 85px;
+    height: 60px;
+    border-radius: 0;
+}
+
+.delete-btn {
+    background: url(../img/delete.png) 70% 60% no-repeat;
+    width: 191px;
+    height: 60px;
+    border-radius: 0;
+}
+
+.add-some-thing {
+    text-align: center;
+    padding: 50px 0;
+    font-size: 44px;
+}
